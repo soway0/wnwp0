@@ -17,8 +17,8 @@ avg_transport_cost = 5000  # 원
 
 # --- 사용자 입력 ---
 # 사용자가 설정하는 총 여행 시간과 예산
-user_total_time = 8  # 8시간
-user_total_budget = 50000  # 5만원
+user_total_time = int(input("여행 시간을 입력하시오:"))  #여행 시간 입력
+user_total_budget = int(input("경비를 입력하시오:")) #경비 입력
 
 # --- 선형계획법 모델 구축 ---
 
